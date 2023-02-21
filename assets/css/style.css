@@ -8,24 +8,40 @@
     display: flex;
 }
 
+.border-radius {
+    border-radius: 30px;
+    border: #ddd;
+    padding: 15px;
+}
+
 /* barra opzioni */
 header {
-    background-color: aqua;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.discord-immagine {
+    background-image: url(../img/logo.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+a {
+    justify-content: end;
 }
 
 .barra {
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .barra div {
-    border: 1px solid #ddd;
-    background: #3a1fbf;
+    text-align: center;
+    font-size: 20px;
+    color: white;
     height: 45px;
-}
-
-.barra div {
     flex-basis: 7%;
+    
 }
 
 .barra div.discord {
@@ -40,10 +56,34 @@ header {
     
 }
 
+.titolo h1 {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 40px;
+    
+}
+
+.titolo p {
+    font-size: 20px;
+    margin-bottom: 35px;
+    color: white;
+}
+
 .titolo {
-    background-color: #3a1fbf;
+    text-align: center;
     width: 700px;
     height: 350px;
+}
+
+/* bottoni download */
+.bottoni-download {
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.bottoni-download-2 {
+    color: white;
+    background-color: rgb(40, 40, 40);
 }
 
 /* contenitori*/
@@ -52,7 +92,8 @@ section:not(.contenitore-immagini-4) {
 }
 
 section div {
-    border: 1px solid white;
+    background-image: ;
+    
     width: 600px;
     height:400px;
 }
@@ -61,8 +102,8 @@ section div.colonna:nth-child(2) {
     height: 800px;
 }
 
-.color div{
-    background-color:  #3a1fbf;    
+.immagine-chat {
+    background-image: url(../img/item1.svg);
 }
 
 /* contenitore immagine */
@@ -71,8 +112,8 @@ section div.colonna:nth-child(2) {
     justify-content: center;
 }
 
-.contenitore-immagini:nth-child(even) {background-color: white;}
-.contenitore-immagini:nth-child(odd) {background-color: lightgrey;}
+.contenitore-immagini:nth-child(odd) {background-color: white;}
+.contenitore-immagini:nth-child(even) {background-color: lightgrey;}
 
 .contenitore-basis {
     width: 1201px;
