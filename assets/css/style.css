@@ -5,6 +5,10 @@
     font-family: 'Nunito', sans-serif;
 } 
 
+button {
+    cursor: pointer;
+}
+
 .flex {
     display: flex;
 }
@@ -178,6 +182,13 @@ section div.colonna {
     font-size: 30px;
 }
 
+.button-chilling {
+    background-color: #a89ce4;
+    color: white;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
 /* parte finale */
 footer {
     background-color: rgb(29, 29, 29);
@@ -193,8 +204,6 @@ footer {
 
 
 .contenitore-informazioni div{
-    background-color: #3a1fbf;
-    border: 1px solid #ddd;
     flex-basis: 20%;
 }
 
@@ -204,8 +213,12 @@ footer {
 
 /* parte finale */
 footer > div{
-    height: 400px;
+    height: 500px;
     justify-content: center;
+}
+
+.informazioni {
+font-size: 25px;
 }
 
 .contenitore-finale {
@@ -227,3 +240,16 @@ hr {
     margin-top: 20px;
 }
 
+.violet {
+    color: #6b5daf;
+}
+
+.font-size-18 {
+    font-size: 18px;
+}
+
+li {
+    color: white;
+    padding: 8px 0 8px 0;
+    list-style: none;
+}
