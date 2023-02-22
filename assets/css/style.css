@@ -5,6 +5,10 @@
     font-family: 'Nunito', sans-serif;
 } 
 
+.white {
+    color: white;
+}
+
 button {
     cursor: pointer;
 }
@@ -13,10 +17,14 @@ button {
     display: flex;
 }
 
-.border-radius {
+.border {
     border-radius: 30px;
     border: #ddd;
     padding: 15px;
+}
+
+.justify-content-center {
+    justify-content: center;
 }
 
 .background-size{
@@ -40,16 +48,13 @@ a {
 }
 
 .barra {
-    justify-content: center;
     padding-top: 20px;
 }
 
 .barra div {
     display: flex;
     align-items: center;
-    justify-content: center;
     font-size: 20px;
-    color: white;
     height: 45px;
     flex-basis: 7%;
     
@@ -62,14 +67,12 @@ a {
 /* titolo */
 .contenitore-titolo {
     flex-wrap: nowrap;
-    justify-content: center;
     padding: 100px 0;
     
 }
 
 .titolo h1 {
     font-size: 60px;
-    color: white;
     margin-bottom: 40px;
     
 }
@@ -77,7 +80,6 @@ a {
 .titolo p {
     font-size: 23px;
     margin-bottom: 35px;
-    color: white;
 }
 
 .titolo {
@@ -93,7 +95,6 @@ a {
 }
 
 .bottoni-download-2 {
-    color: white;
     background-color: rgb(40, 40, 40);
 }
 
@@ -106,7 +107,6 @@ section div {
 /* contenitore immagine */
 .contenitore-immagini {
     align-items: center;
-    justify-content: center;
     height: 830px;
 }
 
@@ -166,7 +166,6 @@ section div.colonna {
 
 .contenitore-immagini-4 {
     align-items: center;
-    justify-content: center;
     padding: 80px 0;
 }
 
@@ -184,7 +183,6 @@ section div.colonna {
 
 .button-chilling {
     background-color: #a89ce4;
-    color: white;
     margin-top: 25px;
     font-size: 25px;
 }
@@ -192,12 +190,7 @@ section div.colonna {
 /* parte finale */
 footer {
     background-color: rgb(29, 29, 29);
-    height: 800px;
-    justify-content: center;
-}
-
-img {
-    
+    height: 100vh;
 }
 
 .logo-italia{
@@ -210,7 +203,6 @@ img {
 }
 
 .testo-italia {
-    color: white;
     font-size: 20px;
     margin-left: 35px;
 }
@@ -272,8 +264,4 @@ li {
     color: white;
     padding: 8px 0 8px 0;
     list-style: none;
-}
-
-.social {
-    height: ;
 }
