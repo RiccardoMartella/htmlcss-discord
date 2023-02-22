@@ -196,12 +196,30 @@ footer {
     justify-content: center;
 }
 
+img {
+    
+}
+
+.logo-italia{
+    background-image: url(../img/ita.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.testo-italia {
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+}
+
 .contenitore-informazioni {
     height: 100px;
     padding-top: 30px;
     width: 1300px;
 }
-
 
 .contenitore-informazioni div{
     flex-basis: 20%;
@@ -211,7 +229,6 @@ footer {
     flex-basis: 40%;
 }
 
-/* parte finale */
 footer > div{
     height: 500px;
     justify-content: center;
@@ -233,8 +250,11 @@ hr {
     margin: auto;
 }
 
+/* bottone */
 .finale {
-    background-color: blue;
+    background-image: url(../img/logo.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 50px;
     width: 150px;
     margin-top: 20px;
@@ -252,4 +272,8 @@ li {
     color: white;
     padding: 8px 0 8px 0;
     list-style: none;
+}
+
+.social {
+    height: ;
 }
